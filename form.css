@@ -3,33 +3,46 @@
 body{
     background-color: #F0F8FF;
     font-family: 'Albert Sans', sans-serif;
-    font-size: 1.2em;
-    font-weight: 500;
+    font-size: 1em;
+    font-weight: 400;
     color: red;
     justify-content: center;
     display: flex;
 
 }
 
+fieldset{
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 1em;
+    border-radius: 3px;
+}
+
+fieldset msg{
+    margin-top: 10px;
+}
+#tipo_endereco{
+    width: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
 #msg{
     width: 600px;
     height: 200px;
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
 }
 
 .botoes{
     margin-top: 15px;
-    width: 300px;
+    width: 400px;
     display: flex;
 }
 
-#botao_msg{
+button{  
     margin-right: 10px;
     font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
 }
-
-#botao_limpa-form{
-    justify-content: flex-end;
-}
-
